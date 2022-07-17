@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="resume html css js" />
+    <meta name="description" content="Это сайт резюме Андрея Иванова" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fotooboikld.ru</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="photo.jpg" alt="Иванов Андрей " class="avatar" />
+        <div class="info-text">
+          <h1>Иванов Андрей Леонидович</h1>
+          <p>Мне всего 48 лет</p>
+          <p>Я решил осущиствить свою давнюю мечту: стать програмистом</p>
+          <p>
+            Прошел курсы HTML , CSS и JS
+            <a href="https://vladilen.ru/teach/control" target="_blank"
+              >Result School</a
+            >
+            Владлена Минина .
+          </p>
+          <p>За что очень благодарен !!!</p>
+          <h4>Мои социальные сети</h4>
+          <a href="https://t.me/+tSO5d8cIPNtkMTBi" target="_blank">Telegram</a>
+          |
+          <a href="https://vk.com/id325337532" target="_blank">VK</a>
+        </div>
+      </div>
+      <div class="card bg-red">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Путешествие</li>
+          <li>Животные</li>
+          <li>Познавать новое</li>
+        </ol>
+      </div>
+      <div class="card bg-yellow">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>НИИ Химии</td>
+              <td>Лаборант</td>
+              <td>1991-1992</td>
+            </tr>
+            <tr>
+              <td>Разное</td>
+              <td>Разнорабочий</td>
+              <td>1992-2000</td>
+            </tr>
+            <tr>
+              <td>Торговля</td>
+              <td>ЗавОтдела</td>
+              <td>2000-2020</td>
+            </tr>
+
+            <tr>
+              <td>LeroyMerlin</td>
+              <td>Продавец-Консультант</td>
+              <td>На данный момент</td>
+            </tr>
+            <tr>
+              <td>IT-Сфера</td>
+              <td>Frontend</td>
+              <td>2022- >></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <form action="telegram.php" method="POST">
+        <legend></legend>
+        <h2>Связатся со мной</h2>
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="Введите имя"
+          />
+        </div>
+        <div class="form-group">
+          <label for="phone">Ваш телефон:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="phone"
+            name="phone"
+            placeholder="Введите телефон"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Ваш email:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Введите email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="msg"> Сообщение:</label>
+          <textarea
+            name="msg"
+            id="msg"
+            placeholder="введите сообщение"
+            cols="20"
+            rows="5"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn">Отправить</button>
+      </form>
+    </div>
+  </body>
+</html>

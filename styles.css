@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background: url("fon2.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0eb4eb;
+}
+a {
+  color: rgb(250, 3, 32);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  color: #0eb4eb /*rgb(250, 3, 32) */;
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+.avatar {
+  width: 200px;
+  border-radius: 25px;
+  box-shadow: 8px 14px 14px rgba(18, 67, 190, 0.25);
+}
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+.info-text {
+  margin-left: 40px;
+}
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  color: #0eb4eb;
+  margin: 0;
+}
+.info-text h4 {
+  margin-bottom: 10px;
+}
+@media (max-width: 750px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+.card {
+  padding: 15px 20px;
+  border: 1px solid blue;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.card h2 {
+  margin-bottom: 10px;
+}
+.bg-yellow {
+  box-shadow: 0 0 10px 5px rgb(30, 8, 171);
+}
+.bg-red {
+  box-shadow: 0 0 10px 5px rgb(30, 8, 171);
+}
+.btn {
+  background: rgba(250, 3, 32, 0.75);
+  padding: 15px 20px;
+  color: #0eb4eb;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.list {
+  padding: 0 20px;
+}
+.list li {
+  color: #0eb4eb;
+  margin-bottom: 10px;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.form h2 {
+  text-align: center;
+}
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+.form-row .form-group {
+  margin-right: 20px;
+  width: 50%;
+}
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+.skils {
+  box-shadow: 0 0 10px 5px rgb(30, 8, 171);
+  border-radius: 25px;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+.list__img {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 750px) {
+  .form-row {
+    display: block;
+  }
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #0eb4eb;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid rgb(30, 8, 171);
+
+  color: rgb(215, 23, 23);
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
